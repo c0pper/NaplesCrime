@@ -6,5 +6,3 @@ def convert_name_to_coords(name):
     if results:
         print(results['lat'], results['lng'])
         return {"lat": results['lat'], "lon": results['lng']}
-
-convert_name_to_coords("via Belvedere")
