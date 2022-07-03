@@ -5,8 +5,7 @@ import locale
 from datetime import datetime
 from tqdm import tqdm
 locale.setlocale(locale.LC_TIME, "it_IT")
-import spacy
-import ndjson
+from geo import convert_name_to_coords
 
 
 def match_place_type(found_loc):
@@ -125,7 +124,14 @@ class NapoliTodayParser(Parser):
                             # print(f"{e.text} - {f} - {doc[e.start - 5:e.end + 5]}")
                             e_text = e.text.replace('\n', '')
                             # print(f"{e_text} - {doc[:1]}")
-                            bundle = {"loc": e_text, "date": article["date"], "url": article["url"]}
+                            loc = convert_name_to_coords(e_text)
+                            if loc:
+                                lat = loc["lat"]
+                                lon = loc["lon"]
+                            else:
+                                lat = 0
+                                lon = 0
+                            bundle = {"location": {"lat": lat, "lon": lon}, "loc_name": e_text, "date": article["date"], "url": article["url"]}
                             print(bundle)
                             return bundle
                 else:

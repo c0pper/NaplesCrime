@@ -25,7 +25,6 @@ import re
 #         # print(key["key"].split()[0])
 
 nlp = spacy.load("it_core_news_lg")
-json_file = open("json/bulk.json", "w", encoding="UTF8")
 
 # rapine = []
 # for f in tqdm(os.listdir("data")):
