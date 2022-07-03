@@ -1,0 +1,1486 @@
+{
+  "aggregations" : [ {
+    "name" : "addresses",
+    "totalKeys" : 493,
+    "values" : [ {
+      "key" : "piazza Garibaldi",
+      "doc_count" : 39
+    }, {
+      "key" : "corso Umberto",
+      "doc_count" : 20
+    }, {
+      "key" : "corso Garibaldi",
+      "doc_count" : 17
+    }, {
+      "key" : "corso Vittorio Emanuele",
+      "doc_count" : 12
+    }, {
+      "key" : "via Toledo",
+      "doc_count" : 12
+    }, {
+      "key" : "piazza Cavour",
+      "doc_count" : 10
+    }, {
+      "key" : "via Duomo",
+      "doc_count" : 9
+    }, {
+      "key" : "via Foria",
+      "doc_count" : 9
+    }, {
+      "key" : "via Marina",
+      "doc_count" : 8
+    }, {
+      "key" : "viale Colli Aminei",
+      "doc_count" : 7
+    }, {
+      "key" : "corso Arnaldo Lucci",
+      "doc_count" : 6
+    }, {
+      "key" : "corso Umberto I",
+      "doc_count" : 6
+    }, {
+      "key" : "piazza Nicola Amore",
+      "doc_count" : 6
+    }, {
+      "key" : "via Arenaccia",
+      "doc_count" : 6
+    }, {
+      "key" : "via Carriera Grande",
+      "doc_count" : 6
+    }, {
+      "key" : "via Manzoni",
+      "doc_count" : 6
+    }, {
+      "key" : "via Salvator Rosa",
+      "doc_count" : 6
+    }, {
+      "key" : "piazza Bellini",
+      "doc_count" : 5
+    }, {
+      "key" : "via Mezzocannone",
+      "doc_count" : 5
+    }, {
+      "key" : "via Petrarca",
+      "doc_count" : 5
+    }, {
+      "key" : "corso Europa",
+      "doc_count" : 4
+    }, {
+      "key" : "corso Italia",
+      "doc_count" : 4
+    }, {
+      "key" : "piazza Dante",
+      "doc_count" : 4
+    }, {
+      "key" : "piazza Mercato",
+      "doc_count" : 4
+    }, {
+      "key" : "piazza Vittoria",
+      "doc_count" : 4
+    }, {
+      "key" : "piazzale Tecchio",
+      "doc_count" : 4
+    }, {
+      "key" : "via De Gasperi",
+      "doc_count" : 4
+    }, {
+      "key" : "via Generale Orsini",
+      "doc_count" : 4
+    }, {
+      "key" : "via Miano",
+      "doc_count" : 4
+    }, {
+      "key" : "via Nazionale",
+      "doc_count" : 4
+    }, {
+      "key" : "via San Francesco",
+      "doc_count" : 4
+    }, {
+      "key" : "via Speranzella",
+      "doc_count" : 4
+    }, {
+      "key" : "via Vittorio Veneto",
+      "doc_count" : 4
+    }, {
+      "key" : "viale Michelangelo",
+      "doc_count" : 4
+    }, {
+      "key" : "corso Secondigliano",
+      "doc_count" : 3
+    }, {
+      "key" : "piazza Municipio",
+      "doc_count" : 3
+    }, {
+      "key" : "piazza Nazionale",
+      "doc_count" : 3
+    }, {
+      "key" : "via Acton",
+      "doc_count" : 3
+    }, {
+      "key" : "via Alessandro Poerio",
+      "doc_count" : 3
+    }, {
+      "key" : "via Carbonara",
+      "doc_count" : 3
+    }, {
+      "key" : "via Cilea",
+      "doc_count" : 3
+    }, {
+      "key" : "via Consalvo",
+      "doc_count" : 3
+    }, {
+      "key" : "via Filangieri",
+      "doc_count" : 3
+    }, {
+      "key" : "via Firenze",
+      "doc_count" : 3
+    }, {
+      "key" : "via Milano",
+      "doc_count" : 3
+    }, {
+      "key" : "via Roma",
+      "doc_count" : 3
+    }, {
+      "key" : "via San Sebastiano",
+      "doc_count" : 3
+    }, {
+      "key" : "via Sedile Di Porto",
+      "doc_count" : 3
+    }, {
+      "key" : "via Turati",
+      "doc_count" : 3
+    }, {
+      "key" : "viale Augusto",
+      "doc_count" : 3
+    }, {
+      "key" : "viale Kennedy",
+      "doc_count" : 3
+    }, {
+      "key" : "corso Malta",
+      "doc_count" : 2
+    }, {
+      "key" : "corso Meridionale",
+      "doc_count" : 2
+    }, {
+      "key" : "corso Resina",
+      "doc_count" : 2
+    }, {
+      "key" : "corso San Giovanni",
+      "doc_count" : 2
+    }, {
+      "key" : "corso Umberto I.",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Bovio",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Capomazza",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Capuana",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Carità",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Carlo Iii",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Del Gesù",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Duca Degli Abruzzi",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Guglielmo Pepe",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Mazzini",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Montesanto",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Nolana",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Pepe",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Principe Umberto",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Principe Umberto I",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza San Massimo",
+      "doc_count" : 2
+    }, {
+      "key" : "piazza Trieste",
+      "doc_count" : 2
+    }, {
+      "key" : "via Alessandro Volta",
+      "doc_count" : 2
+    }, {
+      "key" : "via Antica Giardini",
+      "doc_count" : 2
+    }, {
+      "key" : "via Antonio Scialoia",
+      "doc_count" : 2
+    }, {
+      "key" : "via Argine",
+      "doc_count" : 2
+    }, {
+      "key" : "via Bellini",
+      "doc_count" : 2
+    }, {
+      "key" : "via Benedetto Croce",
+      "doc_count" : 2
+    }, {
+      "key" : "via Calabritto",
+      "doc_count" : 2
+    }, {
+      "key" : "via Calata Capodichino",
+      "doc_count" : 2
+    }, {
+      "key" : "via Campana",
+      "doc_count" : 2
+    }, {
+      "key" : "via Caprile",
+      "doc_count" : 2
+    }, {
+      "key" : "via Carlo Poerio",
+      "doc_count" : 2
+    }, {
+      "key" : "via Cavallerizza",
+      "doc_count" : 2
+    }, {
+      "key" : "via Cervantes",
+      "doc_count" : 2
+    }, {
+      "key" : "via Chiaia",
+      "doc_count" : 2
+    }, {
+      "key" : "via Del Corallo",
+      "doc_count" : 2
+    }, {
+      "key" : "via Epomeo",
+      "doc_count" : 2
+    }, {
+      "key" : "via Ferrante Imparato",
+      "doc_count" : 2
+    }, {
+      "key" : "via Giacinto Gigante",
+      "doc_count" : 2
+    }, {
+      "key" : "via Giovanni Della Rocca",
+      "doc_count" : 2
+    }, {
+      "key" : "via Leopardi",
+      "doc_count" : 2
+    }, {
+      "key" : "via Lieti",
+      "doc_count" : 2
+    }, {
+      "key" : "via Malvasi",
+      "doc_count" : 2
+    }, {
+      "key" : "via Marchese Campodisola",
+      "doc_count" : 2
+    }, {
+      "key" : "via Monteoliveto",
+      "doc_count" : 2
+    }, {
+      "key" : "via Monterusciello",
+      "doc_count" : 2
+    }, {
+      "key" : "via Napoli",
+      "doc_count" : 2
+    }, {
+      "key" : "via Palermo",
+      "doc_count" : 2
+    }, {
+      "key" : "via Parco Panorama",
+      "doc_count" : 2
+    }, {
+      "key" : "via Parma",
+      "doc_count" : 2
+    }, {
+      "key" : "via Piave",
+      "doc_count" : 2
+    }, {
+      "key" : "via Pietravalle",
+      "doc_count" : 2
+    }, {
+      "key" : "via Pignasecca",
+      "doc_count" : 2
+    }, {
+      "key" : "via Posillipo",
+      "doc_count" : 2
+    }, {
+      "key" : "via Primo Maggio",
+      "doc_count" : 2
+    }, {
+      "key" : "via Puccini",
+      "doc_count" : 2
+    }, {
+      "key" : "via Regina Margherita",
+      "doc_count" : 2
+    }, {
+      "key" : "via Revonella",
+      "doc_count" : 2
+    }, {
+      "key" : "via Risorgimento",
+      "doc_count" : 2
+    }, {
+      "key" : "via Riviera Di Chiaia",
+      "doc_count" : 2
+    }, {
+      "key" : "via Salice",
+      "doc_count" : 2
+    }, {
+      "key" : "via Santa Maria",
+      "doc_count" : 2
+    }, {
+      "key" : "via Selva",
+      "doc_count" : 2
+    }, {
+      "key" : "via Tasso",
+      "doc_count" : 2
+    }, {
+      "key" : "via Vesuvio",
+      "doc_count" : 2
+    }, {
+      "key" : "via Vincenzo Merolla, 77",
+      "doc_count" : 2
+    }, {
+      "key" : "viale Della Resistenza",
+      "doc_count" : 2
+    }, {
+      "key" : "viale Europa",
+      "doc_count" : 2
+    }, {
+      "key" : "viale Gramsci",
+      "doc_count" : 2
+    }, {
+      "key" : "viale Maddalena",
+      "doc_count" : 2
+    }, {
+      "key" : "viale Umberto Maddalena",
+      "doc_count" : 2
+    }, {
+      "key" : "contrada Marcomanna",
+      "doc_count" : 1
+    }, {
+      "key" : "contrada San Salvatore",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Filangieri",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Genova",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Giureconsulto",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Italia Di Mugnano",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Lucci",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Michelangelo",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Novara",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Peschiera Della San Paolo Di Torino",
+      "doc_count" : 1
+    }, {
+      "key" : "corso Vercelli",
+      "doc_count" : 1
+    }, {
+      "key" : "largo Giusso",
+      "doc_count" : 1
+    }, {
+      "key" : "largo Regina Coeli",
+      "doc_count" : 1
+    }, {
+      "key" : "largo Sermoneta",
+      "doc_count" : 1
+    }, {
+      "key" : "largo Torretta",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Andretti",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Bologna",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Canneto",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Dante Da Vico Carceri San Felice",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza De Nicola",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Del Gesã",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Del Plebiscito",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Del Riscatto",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Enrico De Nicola",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Ferrovia",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Gramsci",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Imbriani",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Mancini",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Matteotti",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Medaglia",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Medaglie",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Medaglie D'Oro",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Mercadante",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Miraglia",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Neghelli",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Nenni",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Ottocalli",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Pace",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Piedigrotta",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Poderico",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Porta Capuana",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Portanova",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Risorgimento",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Salerno",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Salvatore Di Giacomo",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza San Francesco Di Paola",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza San Pasquale",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Sannazaro",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Sette Settembre",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Umberto",
+      "doc_count" : 1
+    }, {
+      "key" : "piazza Vittorio Emanuele Ii",
+      "doc_count" : 1
+    }, {
+      "key" : "piazzetta Carafa",
+      "doc_count" : 1
+    }, {
+      "key" : "piazzetta Casanova",
+      "doc_count" : 1
+    }, {
+      "key" : "piazzetta S. Arcangelo",
+      "doc_count" : 1
+    }, {
+      "key" : "strada Della Movida",
+      "doc_count" : 1
+    }, {
+      "key" : "strada Marano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Agostino Depretis",
+      "doc_count" : 1
+    }, {
+      "key" : "via Alveo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Alvero",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ammendola",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ammirati",
+      "doc_count" : 1
+    }, {
+      "key" : "via Aniello Falcone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Aniello Palumbo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Annunziatella",
+      "doc_count" : 1
+    }, {
+      "key" : "via Antica Consolare Campane",
+      "doc_count" : 1
+    }, {
+      "key" : "via Antiniana",
+      "doc_count" : 1
+    }, {
+      "key" : "via Antonio Carrelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Antonio Ranieri",
+      "doc_count" : 1
+    }, {
+      "key" : "via Arena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Arnaldi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Atellana Di Caivano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Augusto Witting",
+      "doc_count" : 1
+    }, {
+      "key" : "via Bachelet",
+      "doc_count" : 1
+    }, {
+      "key" : "via Bagni Di Tritoli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Bassa",
+      "doc_count" : 1
+    }, {
+      "key" : "via Belvedere",
+      "doc_count" : 1
+    }, {
+      "key" : "via Biancardi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Bisignano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Bologna",
+      "doc_count" : 1
+    }, {
+      "key" : "via Brecce",
+      "doc_count" : 1
+    }, {
+      "key" : "via Brin",
+      "doc_count" : 1
+    }, {
+      "key" : "via Buonocore",
+      "doc_count" : 1
+    }, {
+      "key" : "via Calastro",
+      "doc_count" : 1
+    }, {
+      "key" : "via Calata Trinità Maggiore",
+      "doc_count" : 1
+    }, {
+      "key" : "via Camillo De Nardis",
+      "doc_count" : 1
+    }, {
+      "key" : "via Campano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Canale",
+      "doc_count" : 1
+    }, {
+      "key" : "via Capitelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Caracciolo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carducci",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carlo Carrà",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carlo Di Tocco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carmignano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carminiello",
+      "doc_count" : 1
+    }, {
+      "key" : "via Carrà",
+      "doc_count" : 1
+    }, {
+      "key" : "via Casacelle",
+      "doc_count" : 1
+    }, {
+      "key" : "via Casalanno",
+      "doc_count" : 1
+    }, {
+      "key" : "via Casamartino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Castellaccio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Catone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cavallotti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cavour",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cesare Abba",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cesario Console",
+      "doc_count" : 1
+    }, {
+      "key" : "via Chiatamone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Chioccarelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ciaia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ciampa",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cimaglia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cinquevie",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cinthia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cirillo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cisterna Dell'Olio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Comunale Catena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Comunale Margherita",
+      "doc_count" : 1
+    }, {
+      "key" : "via Concezione",
+      "doc_count" : 1
+    }, {
+      "key" : "via Confalone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Conte Della Cerra",
+      "doc_count" : 1
+    }, {
+      "key" : "via Coroglio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cortile",
+      "doc_count" : 1
+    }, {
+      "key" : "via Crimaldi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Crispi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cristallini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cristoforo Colombo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Croce San Sossio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cupa Capodichino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cupa San Giovanni",
+      "doc_count" : 1
+    }, {
+      "key" : "via Cupa Spinelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via De Curtis",
+      "doc_count" : 1
+    }, {
+      "key" : "via De Marinis",
+      "doc_count" : 1
+    }, {
+      "key" : "via De Pretis",
+      "doc_count" : 1
+    }, {
+      "key" : "via Degli Aranci",
+      "doc_count" : 1
+    }, {
+      "key" : "via Degli Innamorati",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Carrozzieri",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Cristallini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Gerani",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Giubbonari",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Mille",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dei Tribunali",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Carmine Delle Paludi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Cassano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Grande Archivio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Lavinaio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Parco Margherita",
+      "doc_count" : 1
+    }, {
+      "key" : "via Del Sabotino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Dell'Avvenire",
+      "doc_count" : 1
+    }, {
+      "key" : "via Della Maddalena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Della Spiaggia Dei Pescatori",
+      "doc_count" : 1
+    }, {
+      "key" : "via Delle Repubbliche Marinare",
+      "doc_count" : 1
+    }, {
+      "key" : "via Depretis",
+      "doc_count" : 1
+    }, {
+      "key" : "via Diego Colaramino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Diocleziano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Domenico Morelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Duca Degli Abruzzi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Egiziaca",
+      "doc_count" : 1
+    }, {
+      "key" : "via Elisabetta D'Ungheria",
+      "doc_count" : 1
+    }, {
+      "key" : "via Emilio Scaglione",
+      "doc_count" : 1
+    }, {
+      "key" : "via Enrico",
+      "doc_count" : 1
+    }, {
+      "key" : "via Enrico Alvino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Enrico Cosenz",
+      "doc_count" : 1
+    }, {
+      "key" : "via Epitaffio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ercole Cantone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ernesto Cesareo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Euclide",
+      "doc_count" : 1
+    }, {
+      "key" : "via Europa",
+      "doc_count" : 1
+    }, {
+      "key" : "via Fascione",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ferdinando Russo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Fermi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Foggia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Francesco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Francesco Arnaldi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Francesco De Pinedo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Francesco Girardi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Francesco Saverio Siniscalchi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Gabella Della Farina",
+      "doc_count" : 1
+    }, {
+      "key" : "via Galilei",
+      "doc_count" : 1
+    }, {
+      "key" : "via Galileo Ferraris",
+      "doc_count" : 1
+    }, {
+      "key" : "via Galluccio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Garda",
+      "doc_count" : 1
+    }, {
+      "key" : "via Garibaldi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Genova",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ghisleri",
+      "doc_count" : 1
+    }, {
+      "key" : "via Gianturco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giordano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giorgio Dei Grassi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giotto",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giovanni Antonio Campano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giovanni Paladino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giulio Cesare",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giulio Palermo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Giustinano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Gobetti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Gramsci",
+      "doc_count" : 1
+    }, {
+      "key" : "via Grimaldi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Guglielmo Sanfelice",
+      "doc_count" : 1
+    }, {
+      "key" : "via Guido Menzinger",
+      "doc_count" : 1
+    }, {
+      "key" : "via Gussone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Hugo Pratt",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ignazio Ciaia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Iv Novembre",
+      "doc_count" : 1
+    }, {
+      "key" : "via Jannelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Lago Patria",
+      "doc_count" : 1
+    }, {
+      "key" : "via Lazio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Longolo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Luciano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Luigi Serio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Luigia Sanfelice",
+      "doc_count" : 1
+    }, {
+      "key" : "via Maddalena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Maddaloni",
+      "doc_count" : 1
+    }, {
+      "key" : "via Maiuri",
+      "doc_count" : 1
+    }, {
+      "key" : "via Mancini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Marano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Marco Aurelio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Marco Di Lorenzo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Marco Polo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Marvasi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Mastellone",
+      "doc_count" : 1
+    }, {
+      "key" : "via Mezzocannone, 24",
+      "doc_count" : 1
+    }, {
+      "key" : "via Monet",
+      "doc_count" : 1
+    }, {
+      "key" : "via Monsignor Felice Romano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Monsignor Romano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Montello",
+      "doc_count" : 1
+    }, {
+      "key" : "via Montenuovo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Montesilvano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Montevergine",
+      "doc_count" : 1
+    }, {
+      "key" : "via Morghen",
+      "doc_count" : 1
+    }, {
+      "key" : "via Mugnano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nabucco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nazionale Di Torre Del Greco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nazionale Per",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nelson Mandela",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nerva",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nespole Della Monica",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nicola Mignogna",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nicolardi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nilo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Niutta",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nolana",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nuova Agnano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Nuova San Rocco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Oasi Sacro Cuore",
+      "doc_count" : 1
+    }, {
+      "key" : "via Oriani",
+      "doc_count" : 1
+    }, {
+      "key" : "via Orlando",
+      "doc_count" : 1
+    }, {
+      "key" : "via Orsini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Orticello",
+      "doc_count" : 1
+    }, {
+      "key" : "via Paladino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Palazziello",
+      "doc_count" : 1
+    }, {
+      "key" : "via Panoramica",
+      "doc_count" : 1
+    }, {
+      "key" : "via Paolo Della Valle",
+      "doc_count" : 1
+    }, {
+      "key" : "via Papa Di Mugnano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Paparo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Parmenide",
+      "doc_count" : 1
+    }, {
+      "key" : "via Peep",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pergolesi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pessina",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pica",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pietro Colletta",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pietro Nenni",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pigna",
+      "doc_count" : 1
+    }, {
+      "key" : "via Piombiera",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pirandello",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pisanelli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Plinio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Po",
+      "doc_count" : 1
+    }, {
+      "key" : "via Poggioreale",
+      "doc_count" : 1
+    }, {
+      "key" : "via Poli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Polveriera",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pontano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ponte Della Maddalena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Porta Posillipo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Portalba",
+      "doc_count" : 1
+    }, {
+      "key" : "via Porzio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Pratola",
+      "doc_count" : 1
+    }, {
+      "key" : "via Principe Di Napoli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Promiscua",
+      "doc_count" : 1
+    }, {
+      "key" : "via Prota",
+      "doc_count" : 1
+    }, {
+      "key" : "via Provinciale",
+      "doc_count" : 1
+    }, {
+      "key" : "via Provinciale Frattamaggiore Crispano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Puglia",
+      "doc_count" : 1
+    }, {
+      "key" : "via R. Angiulli",
+      "doc_count" : 1
+    }, {
+      "key" : "via Raffaele Galluccio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ranieri",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rieti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rimini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ripuaria",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rodinò",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rolex",
+      "doc_count" : 1
+    }, {
+      "key" : "via Roma Di Torre Annunziata",
+      "doc_count" : 1
+    }, {
+      "key" : "via Romolo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rosaroll",
+      "doc_count" : 1
+    }, {
+      "key" : "via Rua Catalana",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ruggiero",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ruiz",
+      "doc_count" : 1
+    }, {
+      "key" : "via Russolillo",
+      "doc_count" : 1
+    }, {
+      "key" : "via S. Alfonso Dei Liguori",
+      "doc_count" : 1
+    }, {
+      "key" : "via S. Brigida",
+      "doc_count" : 1
+    }, {
+      "key" : "via S. Nullo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Salita Dei Principi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Salvatore De Renzi",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Candida",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Carlo",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Gennaro Dei Poveri",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Gimignano",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Giovanni",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Leonardo",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Lorenzo",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Mattia",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Pasquale",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Raffaele",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Rocco",
+      "doc_count" : 1
+    }, {
+      "key" : "via San Vito",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sanfelice",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sanitã",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sant'Andrea",
+      "doc_count" : 1
+    }, {
+      "key" : "via Santa Lucia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Santacroce",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sarno",
+      "doc_count" : 1
+    }, {
+      "key" : "via Savarese",
+      "doc_count" : 1
+    }, {
+      "key" : "via Scaglione",
+      "doc_count" : 1
+    }, {
+      "key" : "via Scalea",
+      "doc_count" : 1
+    }, {
+      "key" : "via Scarlatti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Seggio Del Popolo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Selva Piccola",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sentino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Serra",
+      "doc_count" : 1
+    }, {
+      "key" : "via Settembrini",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sicilia",
+      "doc_count" : 1
+    }, {
+      "key" : "via Silio Italico",
+      "doc_count" : 1
+    }, {
+      "key" : "via Solario",
+      "doc_count" : 1
+    }, {
+      "key" : "via Solfatara",
+      "doc_count" : 1
+    }, {
+      "key" : "via Solferino",
+      "doc_count" : 1
+    }, {
+      "key" : "via Solimena",
+      "doc_count" : 1
+    }, {
+      "key" : "via Somma",
+      "doc_count" : 1
+    }, {
+      "key" : "via Soprammuro",
+      "doc_count" : 1
+    }, {
+      "key" : "via Sotto",
+      "doc_count" : 1
+    }, {
+      "key" : "via Stadera",
+      "doc_count" : 1
+    }, {
+      "key" : "via Staffetta",
+      "doc_count" : 1
+    }, {
+      "key" : "via Stazio",
+      "doc_count" : 1
+    }, {
+      "key" : "via Taddeo Da Sessa",
+      "doc_count" : 1
+    }, {
+      "key" : "via Terracina",
+      "doc_count" : 1
+    }, {
+      "key" : "via Tiziano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Togliatti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Toledo, 56",
+      "doc_count" : 1
+    }, {
+      "key" : "via Tommaso Campanella",
+      "doc_count" : 1
+    }, {
+      "key" : "via Toscanella",
+      "doc_count" : 1
+    }, {
+      "key" : "via Tramontana",
+      "doc_count" : 1
+    }, {
+      "key" : "via Tre Ponti",
+      "doc_count" : 1
+    }, {
+      "key" : "via Ugo La Malfa",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vecchia Canzanella",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vecchia Chiaiano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vecchia Di Pozzolatico",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vecchia Miano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vecchia San Rocco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Verdi",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vespucci",
+      "doc_count" : 1
+    }, {
+      "key" : "via Viggiano",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vincenzo Cuoco",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vitale Agrillo",
+      "doc_count" : 1
+    }, {
+      "key" : "via Vittorio Emanuele Iii",
+      "doc_count" : 1
+    }, {
+      "key" : "via Xxiv Maggio",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Camaggio",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Dante",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Decio Mure Console Romano",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Delle Metamorfosi",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Dohrn",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Giovanni Da Cermenati",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Margherita",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Molise",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Regina Margherita",
+      "doc_count" : 1
+    }, {
+      "key" : "viale San Gimignano",
+      "doc_count" : 1
+    }, {
+      "key" : "viale Traiano",
+      "doc_count" : 1
+    } ]
+  } ]
+}

@@ -5,6 +5,39 @@ import locale
 from datetime import datetime
 from tqdm import tqdm
 locale.setlocale(locale.LC_TIME, "it_IT")
+import spacy
+import ndjson
+
+
+def match_place_type(found_loc):
+    # places_types = {'contrada',
+    #                 'corso',
+    #                 'viale',
+    #                 'via',
+    #                 'largo',
+    #                 'piazza',
+    #                 'strada',
+    #                 'vico',
+    #                 'vicolo',
+    #                 'salita',
+    #                 'piazzetta',
+    #                 'piazzale',
+    #                 'napoli centrale',
+    #                 'capodimonte'}
+    # result = False
+    # for x in places_types:
+    #     if x in found_loc.lower():
+    #         return True
+
+    pattern = 'contrada|corso|viale|via|largo|piazza|strada|vico|vicolo|salita|piazzetta|piazzale|napoli centrale|capodimonte'
+    result = re.search(pattern, found_loc, re.IGNORECASE)
+    # print(result)
+    if result:
+        return True
+
+# todo def not_match_type():
+#   autostrada, circumvesuviana, polstrada
+
 
 class Parser:
     def __init__(self, url):
@@ -47,7 +80,8 @@ class NapoliTodayParser(Parser):
                 date = self.soup.select("body > div.o-wrapper.o-bg-base > main > div.o-container > article > section.l-entry__related.u-mb-medium > section > div.u-flex.u-column\@xl.u-items-center.u-items-start\@xl.u-mb-small\@xl > div:nth-child(2) > span.u-label-08.u-color-secondary.u-block")
                 date = datetime.strptime(self.join_paragraphs(date), "%d %B %Y %H:%M").strftime("%Y/%m/%d")  # 07 aprile 2022 10:50
             if print_text: print(date)
-            article = {"date": date, "title": title, "summary": summary, "text": text}
+            body = title + " \n" + summary + " \n" + text
+            article = {"date": date, "body": body, "title": title, "summary": summary, "text": text, "url": self.url}
 
             return article
 
@@ -77,6 +111,26 @@ class NapoliTodayParser(Parser):
         with open("data/NTlinks.txt", "w", encoding="UTF8") as f:
             for l in links:
                 f.write(l + "\n")
+
+    def get_rapina_bundle(self, nlp):
+        article = self.get_article()
+        if article:
+            body = article["body"]
+            doc = nlp(body)
+            ents = doc.ents
+            for e in ents:
+                if e.label_ == "LOC":
+                    if "/" not in e.text:
+                        if match_place_type(e.text):
+                            # print(f"{e.text} - {f} - {doc[e.start - 5:e.end + 5]}")
+                            e_text = e.text.replace('\n', '')
+                            # print(f"{e_text} - {doc[:1]}")
+                            bundle = {"loc": e_text, "date": article["date"], "url": article["url"]}
+                            print(bundle)
+                            return bundle
+                else:
+                    pass
+
 
     def __str__(self):
         article = self.get_article()
